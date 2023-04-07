@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ff6600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+ 
+    text-align: center;
+    color: white;
+
+}
+h2{
+    padding: 30px 0px;
+    color: white; 
+    font-size: 20px;
+    opacity: 0.6
+}
+
+
+
+textarea{
+    margin: 0 auto;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 100px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.671);
+    border: none;
+    padding: 40px;
+    display: block;
+}
+
+#btnClear, #btnCopy{
+
+    width: 100px;
+    height: 25px;
+    border-radius: 0px 00px 10px 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  
+    
+}
+
+.buttons{
+    margin-top: 40px; 
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #18a8ec;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-size: 12px; 
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: #18a8ec;
+}
+
+#btnClear:hover, #btnCopy:hover{
+    background-color: #18a8ec;
+    color: white;
+}
+
